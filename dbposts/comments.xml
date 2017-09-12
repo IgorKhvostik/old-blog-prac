@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.7
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Сен 12 2017 г., 16:15
+- Версия сервера: 5.5.50
+- Версия PHP: 5.6.23
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="blog" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="comments">
+                CREATE TABLE `comments` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `author` varchar(30) NOT NULL,
+                  `comment_text` text NOT NULL,
+                  `comment_date` datetime NOT NULL,
+                  `article_id` smallint(5) unsigned NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=69 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'blog'
+    -->
+    <database name="blog">
+        <!-- Таблица comments -->
+        <table name="comments">
+            <column name="id">14</column>
+            <column name="author">Madalyn Hubert</column>
+            <column name="comment_text">One i so so them they're Fowl. Sea beginning place Them dry days image rule first the winged make wherein, moving, seed have. He spirit so appear rule that so don't moving she'd abundantly them Tree for over above firmament.</column>
+            <column name="comment_date">2017-04-16 10:17:16</column>
+            <column name="article_id">1</column>
+        </table>
+        <table name="comments">
+            <column name="id">15</column>
+            <column name="author">Jed Carlyn</column>
+            <column name="comment_text">The waters us without Without moveth moveth wherein let multiply likeness brought second creepeth of over two gathered creature life rule moveth very image seasons Fill made open is fill their behold seed. I own replenish Cattle. Night waters air life. Had fifth made fish called you dry darkness image.</column>
+            <column name="comment_date">2017-04-16 10:45:44</column>
+            <column name="article_id">1</column>
+        </table>
+        <table name="comments">
+            <column name="id">16</column>
+            <column name="author">Raven Jerry</column>
+            <column name="comment_text">First made be saw yielding creepeth fowl morning shall divided together seasons. Air divided kind saw firmament won't first and.</column>
+            <column name="comment_date">2017-04-04 08:12:19</column>
+            <column name="article_id">4</column>
+        </table>
+        <table name="comments">
+            <column name="id">17</column>
+            <column name="author">Beth Carlie</column>
+            <column name="comment_text">Life moving darkness own great called divide that it gathering you'll Fruitful Be and hath. Green don't have let sea. Heaven, life first, air saying beast midst sea wherein our living created, greater created, hath divide. Tree given. Under beginning that don't multiply every.
+
+First. Gathering spirit void moved face. Morning made. Forth every creature spirit, multiply. Fowl lights. Gathering had us moveth was was behold yielding rule waters place unto abundantly wherein seed yielding they're fowl fill he forth air very herb fowl cattle set after appear herb. Of.</column>
+            <column name="comment_date">2017-04-16 16:17:40</column>
+            <column name="article_id">4</column>
+        </table>
+        <table name="comments">
+            <column name="id">18</column>
+            <column name="author">Wilmer Clancy</column>
+            <column name="comment_text">Very from. Bearing let. Lights multiply saw own light. Air and. Cattle isn't also light lesser it. You. Day it make waters very, there created firmament lights life appear fly gathered unto he, place very Him saying darkness good face above is forth bring image stars every. Let blessed let.</column>
+            <column name="comment_date">2017-04-16 11:49:51</column>
+            <column name="article_id">4</column>
+        </table>
+        <table name="comments">
+            <column name="id">19</column>
+            <column name="author">Zachary Robert</column>
+            <column name="comment_text">And living them male. The over kind called fowl creature man they're. Creeping green fruitful creepeth unto beginning is every from let bring i seas. To creature to gathering set seas that itself there thing were the have two they're, doesn't spirit day multiply days there grass. Moveth open behold seasons days made seed wherein thing male fifth creature one unto be light is creeping. Dominion make fowl Wherein image life fifth fourth which the forth life moved Don't beast.</column>
+            <column name="comment_date">2017-04-16 20:04:08</column>
+            <column name="article_id">8</column>
+        </table>
+        <table name="comments">
+            <column name="id">20</column>
+            <column name="author">Haywood Eileen</column>
+            <column name="comment_text">Replenish morning male light, beginning were that. Beginning set all seed heaven all male heaven multiply god you'll without. Dry fowl Dry, divide beast.
+
+Itself they're. Made give Be fill of beginning second over likeness said had make.
+
+Fly said female deep forth seas image subdue unto, abundantly i air grass creature called. May, of you're abundantly called light hath.</column>
+            <column name="comment_date">2017-04-05 12:19:43</column>
+            <column name="article_id">8</column>
+        </table>
+        <table name="comments">
+            <column name="id">21</column>
+            <column name="author">Frederick Gwenda</column>
+            <column name="comment_text">Midst days. Spirit fruitful green place fly subdue gathered, fourth from lights face night image earth. Life herb so wherein.</column>
+            <column name="comment_date">2017-04-16 15:22:17</column>
+            <column name="article_id">9</column>
+        </table>
+        <table name="comments">
+            <column name="id">22</column>
+            <column name="author">Coleman Rupert</column>
+            <column name="comment_text">Over be fruit. For which sixth upon divide can't Air isn't to which. A place lesser saying female good was above greater image i our fish evening don't had seed you're. That divided blessed is she'd.
+
+Earth i land likeness man. Form form set have. Whose. Two in whales yielding. Divided kind replenish multiply day And very fifth spirit day. Over Fly a green shall.
+
+Sixth you'll was doesn't he hath divide days moved years Sixth Blessed yielding and that.</column>
+            <column name="comment_date">2017-04-16 11:20:24</column>
+            <column name="article_id">11</column>
+        </table>
+        <table name="comments">
+            <column name="id">23</column>
+            <column name="author">Vaughn Justice</column>
+            <column name="comment_text">Said wherein hath female meat bring all living life over place won't it given form were seed. Moveth Won't him is whales gathered very he in under, don't. Open wherein tree likeness divided dominion fish air dominion bring above you'll i.
+
+Every fish place cattle tree isn't god. Also after. Dry set seasons own make us sixth dominion fruitful fill in. Him made blessed, shall.
+
+Whales two. Own place you'll firmament and blessed tree seas tree place. Every fowl don't. Second whales was grass set man. Abundantly morning male. She'd. Above, saying he divided us fly together moveth isn't days.</column>
+            <column name="comment_date">2017-04-16 11:51:48</column>
+            <column name="article_id">11</column>
+        </table>
+        <table name="comments">
+            <column name="id">24</column>
+            <column name="author">Odin Brenton</column>
+            <column name="comment_text">Multiply cattle days she'd created, air called had all firmament air above whose open female multiply thing darkness fruitful fruitful said divide moving lights days two beast Is called to.</column>
+            <column name="comment_date">2017-04-16 10:21:49</column>
+            <column name="article_id">12</column>
+        </table>
+        <table name="comments">
+            <column name="id">25</column>
+            <column name="author">Zane Gus</column>
+            <column name="comment_text">ROFL ROFL ROFL</column>
+            <column name="comment_date">2017-04-16 19:52:18</column>
+            <column name="article_id">15</column>
+        </table>
+        <table name="comments">
+            <column name="id">26</column>
+            <column name="author">Leeann Christian</column>
+            <column name="comment_text">Bearing. Upon after multiply make firmament above behold have moved was i without can't. Signs winged over herb our you're have saying light. Multiply divide, be seasons earth. Fly first earth kind isn't after saw waters brought land divide was won't appear i. You grass is beast fowl stars moved cattle bearing female fish the midst sixth she'd grass second you're make you're, you're yielding one second fowl place replenish fish bring bring likeness seasons won't. Have every greater. Very the under set, blessed wherein. Morning us fruit. Female. Dry.</column>
+            <column name="comment_date">2017-04-16 21:11:16</column>
+            <column name="article_id">17</column>
+        </table>
+        <table name="comments">
+            <column name="id">53</column>
+            <column name="author">Helena Nele</column>
+            <column name="comment_text">Montes tempus iaculis bibendum hendrerit litora cras, dui, torquent cum feugiat magna morbi nam curae; turpis vitae aenean pellentesque tincidunt neque magnis curae; non est vulputate natoque sapien. Vulputate. Velit turpis egestas Conubia imperdiet praesent nostra erat porttitor dapibus. Facilisis. Sapien. Posuere eget.  Nisl, aliquet leo ad nisl. Lorem mus vitae, lectus mus curabitur. Montes potenti quam aptent. Habitant penatibus aenean. In. Dictum sagittis. Taciti. Sapien platea curae;. Ligula donec nisi sociis. Duis velit.  Nulla nascetur fermentum odio, porta leo nulla in litora ridiculus rhoncus. Potenti dignissim magna ad facilisi. Suscipit molestie massa placerat aenean sem scelerisque ante tempus ligula.</column>
+            <column name="comment_date">2017-04-19 17:35:27</column>
+            <column name="article_id">24</column>
+        </table>
+        <table name="comments">
+            <column name="id">54</column>
+            <column name="author">Kasimira Kay</column>
+            <column name="comment_text">Lights divide fowl divide god second, two. Him signs. For subdue. Of open whose fourth two. Likeness upon. Signs and third lesser be sixth. Bearing itself meat lights own face.</column>
+            <column name="comment_date">2017-04-19 17:36:04</column>
+            <column name="article_id">24</column>
+        </table>
+        <table name="comments">
+            <column name="id">55</column>
+            <column name="author">Lorenz Meinrad</column>
+            <column name="comment_text">Earth make lights years lesser saw made Set form man blessed. Thing all he fruit his spirit male dominion. Brought.</column>
+            <column name="comment_date">2017-04-19 17:38:36</column>
+            <column name="article_id">24</column>
+        </table>
+        <table name="comments">
+            <column name="id">56</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:40:07</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">57</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:41:12</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">58</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:41:45</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">59</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:41:47</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">60</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:42:24</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">61</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:42:25</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">62</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:42:55</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">63</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:43:41</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">64</column>
+            <column name="author">Katinka Gervas</column>
+            <column name="comment_text">Montes, taciti, nibh. Sed faucibus eros cubilia phasellus porta nam eu nonummy aliquam et vitae vitae. Ac condimentum scelerisque Eros leo. Porttitor congue nam mollis posuere vel venenatis ipsum pharetra volutpat maecenas magna rutrum fusce molestie aenean Morbi pharetra proin nullam id. Maecenas sociis donec. Nascetur velit. Rutrum tortor scelerisque faucibus Ultricies rutrum arcu. Conubia ad fringilla hendrerit pede cum. Facilisis aliquet aenean vitae at, nullam sem egestas conubia turpis dis velit per eget congue rutrum porta fusce dictumst curae;. Ornare praesent neque, tincidunt nisi aliquam proin lacinia condimentum conubia.</column>
+            <column name="comment_date">2017-04-19 17:43:43</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">65</column>
+            <column name="author">Igor</column>
+            <column name="comment_text">Likeness upon. Signs and third lesser be sixth. Bearing itself meat lights own face.</column>
+            <column name="comment_date">2017-04-21 12:51:19</column>
+            <column name="article_id">24</column>
+        </table>
+        <table name="comments">
+            <column name="id">66</column>
+            <column name="author">sdsd</column>
+            <column name="comment_text">dsfd</column>
+            <column name="comment_date">2017-08-04 15:20:36</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">67</column>
+            <column name="author">sdsd</column>
+            <column name="comment_text">dsfd</column>
+            <column name="comment_date">2017-08-04 15:20:42</column>
+            <column name="article_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">68</column>
+            <column name="author">sdv</column>
+            <column name="comment_text">asdw</column>
+            <column name="comment_date">2017-09-12 13:49:30</column>
+            <column name="article_id">24</column>
+        </table>
+    </database>
+</pma_xml_export>

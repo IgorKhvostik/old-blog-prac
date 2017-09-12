@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.7
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Сен 12 2017 г., 16:14
+- Версия сервера: 5.5.50
+- Версия PHP: 5.6.23
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="blog" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="articles">
+                CREATE TABLE `articles` (
+                  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+                  `title` varchar(70) NOT NULL,
+                  `text` text NOT NULL,
+                  `category` varchar(20) NOT NULL,
+                  `date` datetime NOT NULL,
+                  `views` mediumint(8) unsigned NOT NULL DEFAULT '0',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'blog'
+    -->
+    <database name="blog">
+        <!-- Таблица articles -->
+        <table name="articles">
+            <column name="id">1</column>
+            <column name="title">Wylsacom</column>
+            <column name="text">&lt;iframe width=&quot;585&quot; height=&quot;329&quot; src=&quot;https://www.youtube.com/embed/4ndNndQ0KBA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-12 15:11:06</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">2</column>
+            <column name="title">Запуск CS:GO в Китае</column>
+            <column name="text">В июле прошлого года, Perfect World объявили о заключении соглашения с Valve, которое дает право представлять CS:GO в качестве посредника на территории Китая. Основной целью компании, что уже является издателем Dota 2 в КНР, является рост популярности шутера в Азии и формирование еще более комфортных условий для развития соревновательного сегмента игры. Сегодня Perfect World официально презентовали Counter-Strike: Global Offensive и рассказали некоторые подробности будущих обновлений.</column>
+            <column name="category">3</column>
+            <column name="date">2017-04-12 13:09:55</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">4</column>
+            <column name="title">Im the sphinx meow</column>
+            <column name="text">https://img-9gag-fun.9cache.com/photo/a6bBovL_700b.jpg</column>
+            <column name="category">2</column>
+            <column name="date">2017-04-12 13:21:40</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">5</column>
+            <column name="title">Buy Samsung - get AKG headphones</column>
+            <column name="text">Смартфон GalaxyS8. Вместо стандартных затычек он комплектуется серьезными наушниками от AKG. Их мощный, четкий и сбалансированный звук откалиброван лучшими профессионалами в аудио индустрии! Наушники можно будет купить не только со смартфоном, но и отдельно, в двух цветовых вариантах – титаново-сером или бургунди</column>
+            <column name="category">1</column>
+            <column name="date">2017-04-12 13:24:43</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">6</column>
+            <column name="title">Премьера Xiaomi Mi6 состоится 19 апреля</column>
+            <column name="text">Новый китайский флагман Xiaomi Mi6 должен быть анонсирован 11 апреля. Однако, вопреки слухам, его релиз состоится 19 апреля. Эта дата была названа самим производителем в официальном приглашении.
+ 
+Xiaomi не стала разглашать подробности о Mi6, ограничившись заявлением, что флагман будет отличаться высоким уровнем производительности и получит новейшие разработки, которыми компания занималась все 7 лет своего существования.</column>
+            <column name="category">1</column>
+            <column name="date">2017-04-12 14:24:33</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">8</column>
+            <column name="title">«Алло» отказывается от продаж Nokia</column>
+            <column name="text">Довольно неожиданно и агрессивно, хотя и в рамках формальностей, сеть магазинов «Алло» публично отказалась от продаж новых смартфонов Nokia «из-за высоких цен и сомнительной функциональности».
+ 
+“Мы проанализировали телефоны, которые HMD Global собирается предложить украинским клиентам под торговой маркой Nokia, и решили, что не готовы участвовать в этом фарсе. “Алло” не будет предлагать клиентам продукты, потенциал которых вызывает у нас огромные сомнения”, — объясняет генеральный директор группы компаний «Алло» Максим Раскин.
+ 
+“Группа компаний «Алло» 18 лет продавала Nokia, и нам прискорбно наблюдать за тем, что происходит с продуктами Nokia теперь. Мы не хотим участвовать в похоронах легендарного бренда, чье предложение сейчас уступает всем конкурентам, которые нам известны. Мы дорожим репутацией нашей компании, потому не рекомендуем клиентам покупать телефоны выпущенные HMD Global под брендом Nokia”.
+ 
+«Алло» объявляет полную распродажу всех продуктов Nokia, которые были произведены под управлением Microsoft. Цель этой акции —  максимально быстро вывести Nokia из ассортимента «Алло», чтобы не вводить в заблуждение клиентов, которым сложно отличить товар Microsoft от товара HMD Global.</column>
+            <column name="category">1</column>
+            <column name="date">2017-04-12 16:42:33</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">9</column>
+            <column name="title">Квалификация к ESL One Cologne 2017</column>
+            <column name="text">Организаторы ESL One Cologne 2017 представили подробности открытых квалификаций к предстоящему турниру. Отборочный тур пройдет в регионах Европа и Америка, от которых на LAN-финал отправятся 2 европейских представителя и 1 американская команда. Квалификация пройдет в период с 22 апреля по 20 мая в двухэтапном формате. На открытой стадии коллективы разыграют сетку Single Elimination BO1+BO3, где победители каждой из двух квалификаций пройдут в закрытый этап и сразятся с приглашенными командами за путевки в Кельн.Европа (две квоты)
+22-23 апреля - Открытая квалификация #1 (регистрация)
+28-29 апреля - Открытая квалификация #2 (регистрация)
+21 мая - Закрытая квалификация (6 приглашенных команд + 2 победителя открытых квалификаций)
+Америка (1 квота)
+22-23 апреля - Открытая квалификация #1 (регистрация)
+29-30 апреля - Открытая квалификация #2 (регистрация)
+20 мая - Закрытая квалификация (4 приглашенных команд + 2 победителя открытых квалификаций)
+Напомним, что ESL One Cologne 2017 пройдет 7-9 июля на площадке LANXESS Arena. Всего участие в престижном соревновании примет 16 коллективов, среди которых 13 команд получат прямые приглашения, а остальная тройка отберется посредством открытых квалификаций. Также отметим, что в этом году ESL One Cologne впервые с 2014 года лишился статуса major-турнира и состоится под эгидой организатора с призовым фондом $250,000.</column>
+            <column name="category">3</column>
+            <column name="date">2017-04-12 09:22:26</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">11</column>
+            <column name="title">Samsung Galaxy S8</column>
+            <column name="text">&lt;h3&gt;Samsung Galaxy S8. «Самый умный», изогнутый, но уже не edge&lt;/h3&gt;
+Максимально, с запасом навороченный смартфон под управлением Android — это серия Galaxy S. Корейские флагманы соревнуются с iPhone, но выходят в «противофазе» с ним — через полгода после прошлого «яблофона» и, соответственно, за полгода до нового. Поэтому наворотов в каждой новой S-модели должно быть с запасом.
+
+За шесть лет существования Galaxy S случались у «Самсунга» и провальные поколения, и сенсационно, небывало крутые. «Эс-восьмой» ближе ко второй категории, потому что он заметно отличается не только от самого себя в прошлом поколении, но и от любого другого смартфона. Сенсационных новшеств почти нет, но присмотреться есть к чему:
+
+Экстремально большой экран в маленьком корпусе. В действительно маленьком корпусе, размером с 5,1- или 5,2-дюймовую модель. Xiaomi Mi Mix гораздо более радикальный мобильник, но он, во-первых, как минимум не меньше 5,5-дюймовых устройств, а во вторых — многим пожертвовал в удобстве использования, чтобы стать совсем безрамочным. Samsung при сходной конструкции обошёлся без экспериментов с динамиком и расположением веб-камеры, да и 5,8 дюйма качественного и экономичного AMOLED-дисплея в такие размеры корпуса ещё не упаковывали.
+Клавиша «Домой», упрятанная в экран. Даже Apple отказалась от физической клавиши &quot;Home&quot; и заменила её хитровыдуманным моторчиком с тактильной отдачей, а корейцы вовсе избавили смартфон от архаичного атрибута. Многим любителям Galaxy новшество покажется неудобным, но в безрамочной модели возможность «щёлкнуть аналогово» какую-либо из трёх системных клавиш — роскошь.
+Работа в режиме настольного компьютера. Смартфон вставляется в док, подключенный к монитору, клавиатуре, мышке и прочему — и заменяет собой компьютер, выводя на большой экран что-то типа «Android с окошками». Ну, пытается заменить. Док называется &quot;DeX&quot; и будет стоить около 10 тысяч рублей. Когда-то Microsoft пыталась такое же провернуть со смартфоном Microsoft Lumia 950 XL на Windows, но тогда идея «не пошла».
+Сканер радужной оболочки глаза. Разблокировать смартфон взглядом — просто посмотрев на него. Samsung уже ставил такой датчик в Note 7, но Note 7 отозвали почти сразу после начала продаж из-за возгораний аккумулятор. Такой сканер был даже в дешёвых китайфонах, наподобие ZTE Axon, только бутафорский.
+Сообразительный голосовой/текстовый ассистент. Для любителей разговаривать с телефоном вместо того, чтобы задать поисковый запрос или поставить будильник вручную. Уж сколько их было, но вообще — почему бы и нет, спрашивается?
+&lt;img style=&quot;width:100%;padding-right:5%;&quot; src=&quot;https://www.ferra.ru/869x3000/images/502/502550.jpg&quot; alt=&quot;&quot;&gt; </column>
+            <column name="category">1</column>
+            <column name="date">2017-04-14 10:20:37</column>
+            <column name="views">2</column>
+        </table>
+        <table name="articles">
+            <column name="id">12</column>
+            <column name="title">Question has been answered</column>
+            <column name="text">https://img-9gag-fun.9cache.com/photo/az8RAdq_700b.jpg</column>
+            <column name="category">2</column>
+            <column name="date">2017-04-15 17:41:27</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">13</column>
+            <column name="title">Noisia - Get Deaded (Machinedrum Remix)</column>
+            <column name="text">&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;yes&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314283336&amp;amp;color=6d7c8f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-15 15:32:27</column>
+            <column name="views">1</column>
+        </table>
+        <table name="articles">
+            <column name="id">14</column>
+            <column name="title">SlivkiShow</column>
+            <column name="text">&lt;iframe width=&quot;585&quot; height=&quot;329&quot; src=&quot;https://www.youtube.com/embed/VFx70quY_Hk?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-16 16:32:21</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">15</column>
+            <column name="title">Ник Черников - Терпи, Ашот</column>
+            <column name="text">&lt;iframe width=&quot;585&quot; height=&quot;329&quot; src=&quot;https://www.youtube.com/embed/Bx5eQYMnraQ?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-16 18:31:42</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">17</column>
+            <column name="title">Noisia - Collider </column>
+            <column name="text">&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;yes&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271542702&amp;amp;color=6d7c8f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-16 18:52:44</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">20</column>
+            <column name="title">Спартак подписывает команду RuSh3D</column>
+            <column name="text">Международное физкультурно-спортивное общество &quot;Спартак&quot; открыло киберспортивное подразделение, где в дисциплине Counter-Strike: Global Offensive под красно-белыми цветами будет выступать команда бывших RuSh3D. Сегодня на стадионе Открытие Арена состоялась пресс-конференция, приуроченная к 82-летию со дня основания МФСО &quot;Спартак&quot; им. Н.П.Старостина, где были описаны подробности открытия киберспортивного клуба и дальнейшие шаги по его развитию.
+
+&quot;Мы рады объявить о том, что в дружную спартаковскую семью вливается новый вид спорта. Уверены, что киберспортсмены будут достойно защищать красно-белые цвета, чтить историю и победные традиции Спартака.&quot;- Анна Алешина, председатель МФСО &quot;Спартак&quot;
+&lt;img src=&quot;&quot; style=&quot;width : 100%&quot;&gt;</column>
+            <column name="category">3</column>
+            <column name="date">2017-04-19 08:16:41</column>
+            <column name="views">4</column>
+        </table>
+        <table name="articles">
+            <column name="id">22</column>
+            <column name="title">shox и kennyS сразятся на HTC 2vs2</column>
+            <column name="text">Игроки команды G2 Ришар &quot;shox&quot; Папильон и Кэнни &quot;kennyS&quot; Шраб получили приглашения на HTC 2vs2 Invitational, что пройдет 13-14 мая на площадке студии PGL в Бухаресте, Румыния. Всего в соревновании примут участие 16 профессиональных игроков со всего мира, которые случайным образом будут поделены на 8 команд и сразятся за призовой фонд $50,000.
+Турнир стартует с группового этапа по 4 команды в группе, где в формате GSL BO1 определится четверка сильнейших, что в свою очередь разыграет львиную часть призового фонда в сетке Double Elimination BO3. Финальный этап, помимо стандартных карт с установкой бомбы, будет включать тир-мапу на винтовках, которая выступит в роли решающей при счете 1-1.
+Распределение призового фонда:&lt;br&gt;
+1. $20,000 &lt;br&gt;
+2. $10,000&lt;br&gt;
+3-4. $5,000&lt;br&gt;
+5-8. $2,500&lt;br&gt;</column>
+            <column name="category">3</column>
+            <column name="date">2017-04-19 12:29:19</column>
+            <column name="views">1</column>
+        </table>
+        <table name="articles">
+            <column name="id">23</column>
+            <column name="title">Кот подпевает</column>
+            <column name="text">&lt;iframe width=&quot;585&quot; height=&quot;329&quot; src=&quot;https://www.youtube.com/embed/Z7tHTLd-WWA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-19 07:26:29</column>
+            <column name="views">0</column>
+        </table>
+        <table name="articles">
+            <column name="id">24</column>
+            <column name="title">The Prodigy - Nasty</column>
+            <column name="text">&lt;iframe width=&quot;585&quot; height=&quot;329&quot; src=&quot;https://www.youtube.com/embed/xB_nKpEkILs?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</column>
+            <column name="category">4</column>
+            <column name="date">2017-04-19 15:43:35</column>
+            <column name="views">43</column>
+        </table>
+    </database>
+</pma_xml_export>

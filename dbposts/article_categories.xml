@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.7
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Сен 12 2017 г., 16:15
+- Версия сервера: 5.5.50
+- Версия PHP: 5.6.23
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="blog" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="article_categories">
+                CREATE TABLE `article_categories` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `category_name` varchar(20) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'blog'
+    -->
+    <database name="blog">
+        <!-- Таблица article_categories -->
+        <table name="article_categories">
+            <column name="id">1</column>
+            <column name="category_name">The World of Hi-Tech</column>
+        </table>
+        <table name="article_categories">
+            <column name="id">2</column>
+            <column name="category_name">Funny pictures</column>
+        </table>
+        <table name="article_categories">
+            <column name="id">3</column>
+            <column name="category_name">e-Sports</column>
+        </table>
+        <table name="article_categories">
+            <column name="id">4</column>
+            <column name="category_name">Music/Video</column>
+        </table>
+    </database>
+</pma_xml_export>
